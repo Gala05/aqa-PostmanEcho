@@ -19,7 +19,7 @@ public class PostmanEchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Saint Petersburg is the capital of Russia"));
+                .body("data", equalTo("Moscow is the capital of Russia"));
         ;
     }
 }
